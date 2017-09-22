@@ -1,0 +1,211 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$android-icon-name: 'android-icon';
+$android-icon-x: 33px;
+$android-icon-y: 96px;
+$android-icon-offset-x: -33px;
+$android-icon-offset-y: -96px;
+$android-icon-width: 29px;
+$android-icon-height: 33px;
+$android-icon-total-width: 224px;
+$android-icon-total-height: 165px;
+$android-icon-image: '../sprites/sprite.png';
+$android-icon: (33px, 96px, -33px, -96px, 29px, 33px, 224px, 165px, '../sprites/sprite.png', 'android-icon', );
+$apple-icon-name: 'apple-icon';
+$apple-icon-x: 62px;
+$apple-icon-y: 96px;
+$apple-icon-offset-x: -62px;
+$apple-icon-offset-y: -96px;
+$apple-icon-width: 27px;
+$apple-icon-height: 33px;
+$apple-icon-total-width: 224px;
+$apple-icon-total-height: 165px;
+$apple-icon-image: '../sprites/sprite.png';
+$apple-icon: (62px, 96px, -62px, -96px, 27px, 33px, 224px, 165px, '../sprites/sprite.png', 'apple-icon', );
+$click-name: 'click';
+$click-x: 30px;
+$click-y: 129px;
+$click-offset-x: -30px;
+$click-offset-y: -129px;
+$click-width: 27px;
+$click-height: 36px;
+$click-total-width: 224px;
+$click-total-height: 165px;
+$click-image: '../sprites/sprite.png';
+$click: (30px, 129px, -30px, -129px, 27px, 36px, 224px, 165px, '../sprites/sprite.png', 'click', );
+$compass-name: 'compass';
+$compass-x: 138px;
+$compass-y: 18px;
+$compass-offset-x: -138px;
+$compass-offset-y: -18px;
+$compass-width: 36px;
+$compass-height: 36px;
+$compass-total-width: 224px;
+$compass-total-height: 165px;
+$compass-image: '../sprites/sprite.png';
+$compass: (138px, 18px, -138px, -18px, 36px, 36px, 224px, 165px, '../sprites/sprite.png', 'compass', );
+$headphones-name: 'headphones';
+$headphones-x: 0px;
+$headphones-y: 129px;
+$headphones-offset-x: 0px;
+$headphones-offset-y: -129px;
+$headphones-width: 30px;
+$headphones-height: 36px;
+$headphones-total-width: 224px;
+$headphones-total-height: 165px;
+$headphones-image: '../sprites/sprite.png';
+$headphones: (0px, 129px, 0px, -129px, 30px, 36px, 224px, 165px, '../sprites/sprite.png', 'headphones', );
+$icon-download-name: 'icon-download';
+$icon-download-x: 174px;
+$icon-download-y: 18px;
+$icon-download-offset-x: -174px;
+$icon-download-offset-y: -18px;
+$icon-download-width: 37px;
+$icon-download-height: 35px;
+$icon-download-total-width: 224px;
+$icon-download-total-height: 165px;
+$icon-download-image: '../sprites/sprite.png';
+$icon-download: (174px, 18px, -174px, -18px, 37px, 35px, 224px, 165px, '../sprites/sprite.png', 'icon-download', );
+$key-features-bg-name: 'key-features-bg';
+$key-features-bg-x: 64px;
+$key-features-bg-y: 0px;
+$key-features-bg-offset-x: -64px;
+$key-features-bg-offset-y: 0px;
+$key-features-bg-width: 160px;
+$key-features-bg-height: 18px;
+$key-features-bg-total-width: 224px;
+$key-features-bg-total-height: 165px;
+$key-features-bg-image: '../sprites/sprite.png';
+$key-features-bg: (64px, 0px, -64px, 0px, 160px, 18px, 224px, 165px, '../sprites/sprite.png', 'key-features-bg', );
+$logo-name: 'logo';
+$logo-x: 0px;
+$logo-y: 0px;
+$logo-offset-x: 0px;
+$logo-offset-y: 0px;
+$logo-width: 64px30px;
+$logo-height: 64px30px;
+$logo-total-width: 224px;
+$logo-total-height: 165px;
+$logo-image: '../sprites/../sprites/sprite.png';
+$logo: (0px, 0px, 0px, 0px, 64px, 64px, 224px, 165px, '../sprites/../sprites/sprite.png', 'logo', );
+$nav-bg-name: 'nav-bg';
+$nav-bg-x: 0px;
+$nav-bg-y: 64px;
+$nav-bg-offset-x: 0px;
+$nav-bg-offset-y: -64px;
+$nav-bg-width: 36px;
+$nav-bg-height: 32px;
+$nav-bg-total-width: 224px;
+$nav-bg-total-height: 165px;
+$nav-bg-image: '../sprites/sprite.png';
+$nav-bg: (0px, 64px, 0px, -64px, 36px, 32px, 224px, 165px, '../sprites/sprite.png', 'nav-bg', );
+$person-name: 'person';
+$person-x: 101px;
+$person-y: 18px;
+$person-offset-x: -101px;
+$person-offset-y: -18px;
+$person-width: 37px;
+$person-height: 36px;
+$person-total-width: 224px;
+$person-total-height: 165px;
+$person-image: '../sprites/sprite.png';
+$person: (101px, 18px, -101px, -18px, 37px, 36px, 224px, 165px, '../sprites/sprite.png', 'person', );
+$thumb-up-name: 'thumb-up';
+$thumb-up-x: 64px;
+$thumb-up-y: 18px;
+$thumb-up-offset-x: -64px;
+$thumb-up-offset-y: -18px;
+$thumb-up-width: 37px;
+$thumb-up-height: 36px;
+$thumb-up-total-width: 224px;
+$thumb-up-total-height: 165px;
+$thumb-up-image: '../sprites/sprite.png';
+$thumb-up: (64px, 18px, -64px, -18px, 37px, 36px, 224px, 165px, '../sprites/sprite.png', 'thumb-up', );
+$windows-icon-name: 'windows-icon';
+$windows-icon-x: 0px;
+$windows-icon-y: 96px;
+$windows-icon-offset-x: 0px;
+$windows-icon-offset-y: -96px;
+$windows-icon-width: 33px;
+$windows-icon-height: 33px;
+$windows-icon-total-width: 224px;
+$windows-icon-total-height: 165px;
+$windows-icon-image: '../sprites/sprite.png';
+$windows-icon: (0px, 96px, 0px, -96px, 33px, 33px, 224px, 165px, '../sprites/sprite.png', 'windows-icon', );
+$spritesheet-width: 224px;
+$spritesheet-height: 165px;
+$spritesheet-image: '../sprites/sprite.png';
+$spritesheet-sprites: ($android-icon, $apple-icon, $click, $compass, $headphones, $icon-download, $key-features-bg, $logo, $nav-bg, $person, $thumb-up, $windows-icon, );
+$spritesheet: (224px, 165px, '../sprites/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

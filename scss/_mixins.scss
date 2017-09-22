@@ -1,0 +1,60 @@
+@mixin max-width {
+	max-width: 75rem;
+	margin: 0 auto;
+}
+
+@mixin list-decor {
+	list-style: none;
+}
+
+@mixin min-margin($margin){
+	margin-left: $margin;
+	margin-right: $margin;
+}
+
+@mixin min-padding($padding){
+	padding-left: $padding;
+	padding-right: $padding;
+}
+
+@mixin top-bot-padding($padding-top, $padding-bot){
+	padding-top: $padding-top;
+	padding-bottom: $padding-bot;
+}
+
+@mixin text-transform-up {
+	text-transform: uppercase;
+}
+
+@mixin background-sprite {
+	content: "";
+	position: absolute;
+	left: -3rem;
+	top: -.45rem;
+}
+
+@mixin heading-style {
+	font-family: $ralewayBold;
+	font-size: .9rem;//1.4rem;
+	position: relative;
+	background: url("../images/key-features-bg.png") no-repeat 50% 80%;
+	padding-bottom: 2rem;
+	color: $main-color;
+	text-align: center;
+		&:before,
+		&:after {
+			content: "";
+			background: $background-light;
+			width: 2rem;
+			height: 1px;
+			position: absolute;
+		}
+		&:before {
+			margin-left: -2.5rem;
+			top: 15%;
+		}
+		&:after {
+			margin-left: .4rem;
+			top: 15%;
+		}
+}
